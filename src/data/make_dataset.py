@@ -4,19 +4,21 @@ import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
-import get_candidate_info
+import get_infos
 
 @click.command()
-@click.argument('input_filepath', type=click.Path(exists=True))
-@click.argument('output_filepath', type=click.Path())
-def main(input_filepath, output_filepath):
+# @click.argument('input_filepath', type=click.Path(exists=True))
+# @click.argument('output_filepath', type=click.Path())
+def main():
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
     """
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')
 
-    get_candidate_info.main(input_filepath, output_filepath)
+    get_infos.get_estados_municipios()
+    get_infos.get_eleicoes()
+    get_infos.get_candidatos(ano=2018)
 
 
 if __name__ == '__main__':
