@@ -1,6 +1,7 @@
 import logging
 import requests
 import json
+from datetime import datetime
 
 log = logging.getLogger(__name__)
 
@@ -9,8 +10,8 @@ def make_url_2018_busca(estado, id_):
     Cria o endpoint da URL para buscar 
     informações de um candidato
     """
-    url_base = 'http://divulgacandcontas.tse.jus.br/divulga/rest/v1/'
-    url_base+= 'candidatura/buscar/{year}/{state}/{election}/candidato/{id_}'
+    url_base = 'http://divulgacandcontas.tse.jus.br/divulga'
+    url_base+= '/rest/v1/candidatura/buscar/{year}/{state}/{election}/candidato/{id_}'
     params = {
         'year': '2018',
         'state': str(estado),
@@ -29,10 +30,10 @@ def get_info_candidato(estado, id_ ):
     req = requests.get(url)
     try:
         info = req.json()
-        log.info('Encontrado: estado {}, id {}'.format(estado, id_))
+        log.debug('Encontrado: estado {}, id {}'.format(estado, id_))
         return info
     except json.decoder.JSONDecodeError:
-        log.error('Não encontrado: estado {}, id {}'.format(estado, id_))
+        log.debug('Não encontrado: estado {}, id {}'.format(estado, id_))
         return None
 
 
@@ -55,13 +56,17 @@ def main(input_filepath, output_filepath):
     na pasta raw
     """
     candidates = get_lista_candidatos(input_filepath)
-    info = []
+    total = len(candidates)
     try:
-        for candidate in candidates:
-            this = get_info_candidato(*candidate)
+        for counter, candidate in enumerate(candidates):
+            estado = candidate[0]
+            id_ = candidate[1].strip()
+            this = get_info_candidato(estado, id_)
             if this and len(this)>0:
-                info.append(this)
+                now = datetime.now().strftime('%Y%m%d%H%M%S')
+                save_filepath = output_filepath.format(id_, now)
+                log.info('Feito: {:5d} de {:5d}'.format(counter, total))
+                with open(save_filepath, 'w') as fl:
+                    json.dump(this, fl)
     except KeyboardInterrupt:
-        pass
-    with open(output_filepath, 'w') as fl:
-        json.dump(info, fl)
+        log.debug('Interrompido pelo usuário')

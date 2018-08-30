@@ -1,0 +1,354 @@
+ano,dataEleicao,descricaoEleicao,id,localidadeSgUe,nomeEleicao,siglaUF,tipoAbrangencia,tipoEleicao
+2018,2018-10-07,2018,2022802018,,Eleição Geral Federal 2018,,F,O
+2016,2016-10-02,2016,2,,Eleições Municipais 2016,,M,O
+2014,2014-10-05,2014,680,,Eleições Gerais 2014,,F,O
+2012,,2012,1699,,Eleição Municipal 2012,,M,O
+2010,,2010,14417,,Eleições 2010,,F,O
+2008,2008-10-05,2008,14422,,Eleições 2008,,M,O
+2006,,2006,14423,,Eleições 2006,,F,O
+2004,,2004,14431,,Eleições 2004,,M,O
+2016,2017-03-12,2016,20861,,Eleição Suplementar de Calçoene-AP,06033,M,S
+2016,2018-10-28,2016,1034102016,,Suplementar Novo Airão / AM,02011,M,S
+2016,2018-02-04,2016,75632,,Eleição Suplementar Novo Aripuanã-AM,02674,M,S
+2016,2018-10-28,2016,1034002016,,Suplementar Anamã / AM,02933,M,S
+2016,2018-06-03,2016,89368,,Eleição Suplementar de Jeremoabo,36633,M,S
+2016,2018-06-03,2016,93810,,Eleição Supl. de Frecheirinha,13919,M,S
+2016,2018-06-03,2016,93698,,Suplementar - Santana do Cariri,15431,M,S
+2016,2018-06-03,2016,91463,,Eleição Suplementar - Prefeito,15695,M,S
+2016,2018-06-03,2016,91510,,Eleição Suplementar - Prefeito,15750,M,S
+2016,2017-10-01,2016,60776,,Eleição Suplementar de Fundão (ES),56430,M,S
+2016,2017-07-02,2016,41264,,Eleição Suplementar Muqui (ES),56758,M,S
+2016,2018-06-03,2016,96210,,Eleição Suplementar - Niquelândia (GO),94897,M,S
+2016,2017-10-01,2016,60819,,Eleição Suplementar - Petrolina (GO),95311,M,S
+2016,2018-10-28,2016,1034302016,,ELEIÇÃO SUPLEMENTAR DE BACABAL,07234,M,S
+2016,2017-03-12,2016,22273,,Conquista D'Oeste-MT-Mar/2017,91006,M,S
+2016,2017-11-19,2016,68410,,Eleição Suplementar Mirassol D'Oeste,91774,M,S
+2016,2017-07-02,2016,40598,,Alto Taquari-MT-Jul-2017,98612,M,S
+2016,2017-11-19,2016,68363,,Eleição Suplementar Primavera do Leste,98892,M,S
+2016,2017-06-04,2016,36506,,ELEIÇÃO SUPLEMENTAR TACURU,98159,M,S
+2016,2017-03-12,2016,22376,,Eleição Suplementar Alvorada de Minas,40479,M,S
+2016,2017-12-03,2016,70935,,Eleição Suplementar Antonio Dias,40592,M,S
+2016,2017-07-02,2016,42977,,Eleição Suplementar Sta. Rita de Minas,40665,M,S
+2016,2018-03-04,2016,81702,,Eleição Suplementar Santa Cruz Salinas,41483,M,S
+2016,2018-03-04,2016,81721,,Eleição Suplementar Campo Azul,41807,M,S
+2016,2017-05-07,2016,31089,,Eleição Suplementar Guaraciama,42188,M,S
+2016,2017-11-19,2016,68881,,Eleição Suplementar Ibiracatu,42200,M,S
+2016,2017-07-02,2016,43022,,Eleição Suplementar Campo Florido,42277,M,S
+2016,2017-07-02,2016,43030,,Eleição Suplementar Canaã ,42331,M,S
+2016,2017-12-03,2016,70905,,Eleição Sup. Conceição do Rio Verde,43532,M,S
+2016,2017-06-04,2016,37966,,Eleição Suplementar Cristiano Otoni,44075,M,S
+2016,2017-03-12,2016,22361,,Eleição Suplementar Ervália,44792,M,S
+2016,2018-06-03,2016,94981,,Eleição Suplementar Guanhães,45594,M,S
+2016,2017-12-03,2016,70919,,Eleição Suplementar Ibitiúra de Minas,45977,M,S
+2016,2018-03-04,2016,81700,,Eleição Suplementar Ibituruna,45993,M,S
+2016,2018-06-03,2016,95011,,Eleição Suplementar Ipatinga,46256,M,S
+2016,2018-06-24,2016,99034,,Eleição Suplementar Itanhomi,46639,M,S
+2016,2017-11-19,2016,68891,,Eleição Suplementar Jordânia,47295,M,S
+2016,2018-06-03,2016,95074,,Eleição Suplementar Pocrane,50377,M,S
+2016,2018-06-24,2016,100087,,Eleição Suplementar Santa Luzia,51551,M,S
+2016,2017-11-19,2016,68893,,Eleição Suplementar Santana da Vargem,51659,M,S
+2016,2017-03-12,2016,22382,,Eleição Suplementar São Bento Abade,52159,M,S
+2016,2018-06-24,2016,98969,,Eleição Suplementar Timóteo,53732,M,S
+2016,2018-06-24,2016,93796,,Eleição Suplementar de Moju,04936,M,S
+2016,2017-06-04,2016,33050,,Eleição Suplementar de Tomé-Açu,05592,M,S
+2016,2018-06-03,2016,92720,,Eleição Suplementar de Tucuruí - PA,05614,M,S
+2016,2017-04-02,2016,24157,,Eleição Suplementar Nova Laranjeiras,74586,M,S
+2016,2017-04-02,2016,24163,,Eleição Suplementar de Foz do Iguaçu,75639,M,S
+2016,2017-06-04,2016,36285,,Eleição Suplementar de Guaraqueçaba,75850,M,S
+2016,2017-06-04,2016,36306,,Eleição Suplementar de Moreira Sales,77070,M,S
+2016,2017-08-06,2016,46444,,Eleição Suplementar de Nova Fátima,77232,M,S
+2016,2017-04-02,2016,24187,,Eleição Suplementar de Piraí do Sul,77674,M,S
+2016,2017-08-06,2016,46403,,Eleição Suplementar Primeiro de Maio,77895,M,S
+2016,2017-04-02,2016,24189,,Eleição Suplementar Quatiguá,77933,M,S
+2016,2017-07-02,2016,42911,,Eleição Suplementar de Belo Jardim PE,23337,M,S
+2016,2017-04-02,2016,21280,,Eleição Suplementar Ipojuca PE,24430,M,S
+2016,2017-08-06,2016,52093,,Eleição Suplementar Miguel Leão (PI),11258,M,S
+2016,2018-06-24,2016,96930,,Eleição Suplementar de Cabo Frio,58130,M,S
+2016,2018-10-28,2016,1034702016,,RJ - Suplementar de Aperibé,58181,M,S
+2016,2018-06-24,2016,98126,,Eleição Suplementar de Rio das Ostras,58203,M,S
+2016,2018-10-28,2016,1034902016,,RJ - Suplementar de Iguaba Grande,58262,M,S
+2016,2018-10-28,2016,1034802016,,RJ - Suplementar de Laje do Muriaé,58459,M,S
+2016,2018-10-28,2016,1035002016,,RJ - Suplementar de Mangaratiba,58513,M,S
+2016,2018-06-03,2016,92737,,Eleição suplementar de Teresópolis,59153,M,S
+2016,2018-06-03,2016,94998,,Eleição Suplementar de Galinhos,16799,M,S
+2016,2018-06-03,2016,95020,,Eleição Suplementar de João Câmara,17132,M,S
+2016,2018-03-04,2016,81707,,Eleição suplementar de Paraú,17736,M,S
+2016,2018-06-03,2016,95078,,Eleição Suplementar de Parazinho,17752,M,S
+2016,2018-06-03,2016,94957,,Eleição Suplementar de Pedro Avelino,17930,M,S
+2016,2018-06-03,2016,94972,,Eleição Sup. de São José de Campestre,18430,M,S
+2016,2018-10-28,2016,1034402016,,Suplementar de Alpestre - RS,85090,M,S
+2016,2017-03-12,2016,21065,,Eleição Suplementar de Arvorezinha,85278,M,S
+2016,2017-03-12,2016,21083,,Eleição Suplementar de São Vendelino,85383,M,S
+2016,2018-06-03,2016,92539,,Eleição Suplementar de Bom Jesus - RS,85456,M,S
+2016,2017-03-12,2016,21098,,Eleição Suplementar de Butiá,85537,M,S
+2016,2017-03-12,2016,21066,,Eleição Suplementar São Vicente do Sul,86754,M,S
+2016,2017-03-12,2016,21068,,Eleição Suplementar de Gravataí,86835,M,S
+2016,2017-11-19,2016,69075,,Eleição Suplementar de Ivoti-RS,87173,M,S
+2016,2017-11-19,2016,69133,,Eleição Suplementar de Paraí-RS,87831,M,S
+2016,2017-03-12,2016,21062,,Eleição Suplementar de Salto do Jacuí,89753,M,S
+2016,2018-06-03,2016,95019,,Suplementar Prefeito Vilhena - RO,00132,M,S
+2016,2017-09-03,2016,46234,,Nova Eleição Set/2017 - Abelardo Luz,80012,M,S
+2016,2017-04-02,2016,21308,,Nova Eleição 2017 - Sangão,81000,M,S
+2016,2018-10-28,2016,1033802016,,Nova Eleição Out/2018 - Vidal Ramos,83771,M,S
+2016,2017-04-02,2016,21331,,Nova Eleição 2017 Bom Jardim da Serra,83895,M,S
+2016,2018-10-28,2016,1034502016,,Suplementar de Araras ,61654,M,S
+2016,2018-06-03,2016,92530,,Suplementar Bariri,62030,M,S
+2016,2017-04-02,2016,24804,,Eleição Suplementar  Cafelândia,62774,M,S
+2016,2017-07-02,2016,42026,,Eleição Suplementar de  Itatinga,65714,M,S
+2016,2017-09-03,2016,52557,,Eleição Suplementar de Mairinque,66699,M,S
+2016,2017-04-02,2016,24752,,Eleição Suplementar Mococa,67113,M,S
+2016,2017-09-03,2016,52540,,Eleição Suplementar de Mombuca,67199,M,S
+2016,2018-10-28,2016,1035102016,,Suplementar de Monte Azul Paulista,67318,M,S
+2016,2018-06-03,2016,92548,,Suplementar Pirapora do Bom Jesus,68837,M,S
+2016,2018-06-24,2016,103956,,Suplementar Santa Cruz das Palmeiras,70270,M,S
+2016,2017-04-02,2016,24763,,Eleição Suplem. São José da Bela Vista,70912,M,S
+2016,2017-11-19,2016,68203,,Suplementar de Sebastianópolis do Sul,71277,M,S
+2016,2018-06-03,2016,92582,,Suplementar Turmalina,72079,M,S
+2016,2017-04-02,2016,22424,,Eleição Suplementar de Carmópolis-SE,31291,M,S
+2016,2017-12-03,2016,70880,,Eleição Suplementar Itacajá-TO,94056,M,S
+2016,2017-06-04,2016,34566,,Eleição Suplementar Taguatinga-TO,96156,M,S
+2014,2017-08-06,2014,43106,,Eleição Suplementar Governador AM,AM,E,S
+2014,2018-06-03,2014,91575,,Eleição Suplementar Governador - TO,TO,E,S
+2012,,2012,1741,,Eleição Suplementar de Palestina/AL,28231,M,S
+2012,,2012,1707,,Eleição Suplementar de Palestina-AL,28231,M,S
+2012,,2012,1700,,Eleição Suplementar Amapari-AP,06084,M,S
+2012,2015-10-04,2012,674,,Eleição Suplementar de Macarani,36951,M,S
+2012,,2012,1676,,Eleição Suplem Muquém do São Francisco,37460,M,S
+2012,2015-06-14,2012,659,,Eleição Sup de Pres Tancredo Neves,38164,M,S
+2012,2015-12-06,2012,656,,Eleição Suplementar de Araripe,13250,M,S
+2012,2015-05-17,2012,675,,Eleição Suplementar Araripe/CE,13250,M,S
+2012,,2012,1679,,Eleição Suplementar Tarrafas,13366,M,S
+2012,,2012,1704,,Nova Eleição - Meruoca/CE,14656,M,S
+2012,2014-12-07,2012,660,,Eleição Supl. de Água Doce do Norte ES,56022,M,S
+2012,,2012,1719,,Eleição Suplementar Guarapari 2012,56472,M,S
+2012,,2012,1736,,Eleição Suplementar de Pedro Canário,57150,M,S
+2012,2014-12-07,2012,661,,Eleição Suplementar Bom Jesus de Goiás,92690,M,S
+2012,,2012,1684,,Eleição Suplementar - Cabeceiras,92797,M,S
+2012,,2012,1729,,Eleição Suplementar - Flores de Goiás,93599,M,S
+2012,,2012,1776,,Eleição Suplementar - Goiatuba,93793,M,S
+2012,,2012,1756,,Eleição Suplementar - Nazário,94854,M,S
+2012,,2012,1742,,Eleição Suplementar - Pires do Rio,95451,M,S
+2012,,2012,1752,,Eleição Suplementar - São Domingos,95915,M,S
+2012,2015-06-14,2012,682,,Eleição Suplementar São Domingos ,95915,M,S
+2012,,2012,1696,,ELEICAO SUPLEM. DE BOA VISTA DO GURUPI,07323,M,S
+2012,,2012,1731,,Glória D´Oeste,90204,M,S
+2012,,2012,1714,,Juara,98191,M,S
+2012,,2012,1766,,Suplementar Figueirão,55069,M,S
+2012,,2012,1732,,Suplementar Bela Vista,90417,M,S
+2012,,2012,1758,,Suplementar Bonito,90433,M,S
+2012,,2012,1754,,Suplementar Caracol,90530,M,S
+2012,,2012,1687,,Suplementar Jardim,90999,M,S
+2012,,2012,1724,,Suplementar Sidrolândia,91570,M,S
+2012,,2012,1697,,Água Boa MG - 67ª ZE,40118,M,S
+2012,2014-12-07,2012,649,,Eleição Suplementar de Jampruca,40304,M,S
+2012,,2012,1681,,Montezuma MG - 237ª ZE,40460,M,S
+2012,,2012,1695,,Eleição Suplementar de Biquinhas,41394,M,S
+2012,,2012,1733,,Santa Helena de Minas MG - 4ª ZE,41505,M,S
+2012,,2012,1768,,Eleição Sup. de Cachoeira Dourada,41955,M,S
+2012,,2012,1698,,São Sebastião da Vargem Alegre ZE 178,42340,M,S
+2012,,2012,1675,,Eleição Suplementar de Diamantina,44318,M,S
+2012,2014-12-07,2012,667,,Eleição Suplementar de Ipiaçu,46272,M,S
+2012,,2012,1762,,Novas Eleições Santana de Cataguases,51675,M,S
+2012,,2012,1750,,Eleição Sup. de São João do Paraíso,52531,M,S
+2012,,2012,1771,,Mathias Lobato MG - 119ª ZE,54313,M,S
+2012,,2012,1765,,Eleição Suplementar de Palestina - PA,04162,M,S
+2012,,2012,1715,,Eleição Supl. de Água Azul do Norte,04260,M,S
+2012,,2012,1720,, Eleição Suplementar de Marituba/PA,04642,M,S
+2012,2015-05-17,2012,653,,Eleição Suplementar Igarapé-Miri,04650,M,S
+2012,,2012,1743,,Eleição Sup. de Santa Maria do Pará,05312,M,S
+2012,2015-01-18,2012,650,,Eleição Sup. Santa Maria do Pará,05312,M,S
+2012,,2012,1678,,SOLEDADE - Nova Eleição 2013,22233,M,S
+2012,2015-05-17,2012,651,,Eleição Suplementar Bituruna - PR,74551,M,S
+2012,2015-01-18,2012,654,,Eleição Suplementar de Cambira,74730,M,S
+2012,,2012,1725,,Eleição Suplementar Inácio Martins,75990,M,S
+2012,2014-12-07,2012,676,,Eleição Suplementar Jundiaí do Sul,76511,M,S
+2012,2015-12-06,2012,668,,Eleição Suplementar de Rolândia - PR,78255,M,S
+2012,,2012,1775,,Eleição Suplementar Santa Inês,78476,M,S
+2012,,2012,1737,,Eleição Suplementar de Água Preta,23078,M,S
+2012,,2012,1728,,Eleição Suplem. Brejo da Madre de Deus,23515,M,S
+2012,,2012,1677,, Eleição Suplementar de Primavera ,25275,M,S
+2012,,2012,1767,,Eleição Suplementar de Santa Maria,25518,M,S
+2012,,2012,1745,,Eleição Suplementar de São João,25631,M,S
+2012,,2012,1685,,Suplementar Simões,12130,M,S
+2012,,2012,1674,,Eleição Suplementar Barra do Piraí-RJ,58050,M,S
+2012,,2012,1688,,Eleição Majoritária_Serra do Mel/RN,16020,M,S
+2012,,2012,1746,,Eleição Suplementar - Caiçara do Norte,16047,M,S
+2012,,2012,1691,,Eleição Maj_Caiçara do Rio do Vento/RN,16373,M,S
+2012,2015-07-05,2012,677,,Eleição suplementar de Carnaubais-RN,16497,M,S
+2012,,2012,1747,,Eleição Suplementar Francisco Dantas,16772,M,S
+2012,,2012,1711,,Eleição Suplementar Ipanguaçu-RN,16918,M,S
+2012,,2012,1739,,Eleição Suplementar - Lajes Pintadas,17353,M,S
+2012,2015-07-05,2012,663,,Eleição suplementar de Luís Gomes-RN,17396,M,S
+2012,,2012,1772,,Eleição Suplementar Mossoró-RN,17590,M,S
+2012,2015-11-08,2012,669,,Eleição suplementar de Passagem-RN,17833,M,S
+2012,2015-04-12,2012,662,,Eleição Suplementar - Pedra Grande ,17892,M,S
+2012,,2012,1682,,Majoritária - Dezesseis de Novembro,85049,M,S
+2012,,2012,1738,,Majoritária - Augusto Pestana,85294,M,S
+2012,,2012,1723,,Majoritária - Eugênio de Castro,85448,M,S
+2012,,2012,1753,,Majoritária - Tupandi,85723,M,S
+2012,2015-06-14,2012,678,,Majoritária - Crissiumal,86177,M,S
+2012,,2012,1713,,Majoritária - Dom Feliciano,86274,M,S
+2012,,2012,1721,,Majoritária - Erechim,86371,M,S
+2012,,2012,1759,,Majoritária - Barra do Rio Azul,86380,M,S
+2012,,2012,1751,,Majoritária - Colinas,86584,M,S
+2012,,2012,1712,,Majoritária - Maximiliano de Almeida,87459,M,S
+2012,,2012,1740,,Majoritária - Novo Hamburgo,87718,M,S
+2012,,2012,1764,,Majoritária - São José das Missões,87769,M,S
+2012,,2012,1744,,Majoritária - São José do Ouro,88757,M,S
+2012,2015-03-01,2012,664,,Majoritária - Alm Tamandaré do Sul,89001,M,S
+2012,,2012,1763,,Majoritária - Sobradinho,89176,M,S
+2012,,2012,1683,,Majoritária - Triunfo,89435,M,S
+2012,,2012,1734,,Majoritária - Tucunduva,89451,M,S
+2012,,2012,1710,,Majoritária - Pedras Altas,89567,M,S
+2012,,2012,1755,,Majoritária - Fortaleza dos Valos,98272,M,S
+2012,,2012,1748,,Majoritária - Benedito Novo,80438,M,S
+2012,,2012,1708,,Majoritária - Campo Erê,80675,M,S
+2012,,2012,1709,,Majoritária - Criciúma,80896,M,S
+2012,,2012,1749,,Majoritária - Ponte Serrada,82635,M,S
+2012,,2012,1705,,Majoritária - Tangará,83534,M,S
+2012,,2012,1680,,Majoritária - Baln Rincão,83909,M,S
+2012,,2012,1686,,Nova Eleição Pedrinhas Paulista,61247,M,S
+2012,2014-12-07,2012,657,,Eleição Suplementar de Americana,61310,M,S
+2012,2015-09-13,2012,686,,Eleição Suplementar de Vargem,61549,M,S
+2012,2015-11-08,2012,671,,Eleição Suplementar de Canas,62103,M,S
+2012,2014-12-07,2012,685,,Eleição Suplementar  de Bento de Abreu,62235,M,S
+2012,,2012,1717,,Nova Eleição - Fernão 7abr2013,62286,M,S
+2012,2014-12-07,2012,666,,Eleição Suplementar de Jumirim,62324,M,S
+2012,,2012,1726,,Nova Eleição Boa Esperança do Sul ,62332,M,S
+2012,,2012,1703,,Novas Eleições - Cananéia - 02/06/2013,62995,M,S
+2012,,2012,1701,,Nova Eleição - Coronel Macedo 7abr2013,63533,M,S
+2012,,2012,1673,,Nova Eleição Descalvado,63754,M,S
+2012,,2012,1727,,Nova Eleição - Eldorado 7abr2013,63975,M,S
+2012,,2012,1773,,Novas Eleições General Salgado 2/6/13,64394,M,S
+2012,,2012,1735,,Nova Eleição Ibaté,64874,M,S
+2012,2014-12-07,2012,684,,Eleição Suplementar de Indiana,65137,M,S
+2012,,2012,1692,,Nova Eleição Itaí,65374,M,S
+2012,2015-03-01,2012,679,,Eleição Suplementar de Itápolis,65552,M,S
+2012,,2012,1706,,Nova Eleição Osvaldo Cruz,67938,M,S
+2012,2015-04-12,2012,670,,Eleição Suplementar de Paulo de Faria,68330,M,S
+2012,,2012,1757,,Nova Eleição Pirangi,68810,M,S
+2012,,2012,1722,,Nova Eleição Santana do Parnaíba,70475,M,S
+2012,,2012,1760,,Nova Eleição Tabatinga,71552,M,S
+2012,,2012,1770,,Eleição Suplementar de Taipas do TO,73164,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,27049,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,27758,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,28479,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,28495,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,28657,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,28797,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,02453,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,34355,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,34797,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,35874,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,36250,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,37680,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,39748,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,13099,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,13110,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,13153,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,15458,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,56090,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,92550,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,07110,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,07129,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,07463,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,08117,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,08621,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,09156,M,S
+2008,,2008,17524,,Eleições Suplementares,09156,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,89800,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,89958,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,90239,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,90743,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,90808,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,91294,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,91553,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,91812,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,98795,M,S
+2008,,2008,17525,,Eleições Suplementares 2008,55050,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,90611,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,40339,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,40428,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,40975,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,41408,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,41530,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,41955,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,41980,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,42277,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,42854,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,43494,M,S
+2008,,2008,17524,,Eleições Suplementares,43494,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,45330,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,46256,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,46272,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,46370,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,48917,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,49352,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,51411,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,51535,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,51934,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,52531,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,53155,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,54356,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,04197,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,04227,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,04669,M,S
+2008,,2008,17525,,Eleições Suplementares 2008,04863,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,20435,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,21059,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,21954,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,74128,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,74446,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,74551,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,75329,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,75450,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,76554,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,79316,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,23183,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,23639,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,25259,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10049,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10138,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10154,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10200,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10235,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10430,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10499,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10677,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10715,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10790,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10855,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,10979,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,11150,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,11355,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,11452,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,11614,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,11711,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,12092,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,12319,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,58491,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,16225,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,17850,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,18430,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,85391,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,86037,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,87017,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,88064,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,88803,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,89001,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,89494,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,00450,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,03042,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,03077,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,80101,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,80268,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,80535,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,80918,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,83933,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,64610,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,65013,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,66575,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,31771,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,31895,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,92193,M,S
+2008,2012-04-01,2008,17522,,Eleições Suplementares 2008,96857,M,S

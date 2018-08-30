@@ -75,7 +75,6 @@ def get_estados_municipios(folder_save=None):
         df.to_csv(arquivo_municipios, index=False, quoting=csv.QUOTE_NONNUMERIC)
     return estados, municipios
 
-
 def get_eleicoes(folder_save=None):
     """
     Obtém as eleições que ocorreram, incluindo as suplementares
@@ -99,8 +98,7 @@ def get_eleicoes(folder_save=None):
         pandas.DataFrame(eleicoes).to_csv(arquivo, index=False)
         return eleicoes
 
-
-def get_candidatos(folder_save=None, ano=2018):
+def get_lista_candidatos(folder_save=None, ano=2018):
     """
     Obtém os candidatos a eleições em um dado ano
     """
@@ -108,12 +106,38 @@ def get_candidatos(folder_save=None, ano=2018):
         here = os.path.dirname(os.path.abspath(__file__))
         folder_save = os.path.join(here, '..', '..', 'data', 'raw')
         folder_save = os.path.abspath(folder_save)
+    file_base = 'Lista_{:d}'.format(ano)
+    file_candidatos_O = os.path.join(folder_save, file_base+'_ord.json')
+    file_candidatos_S = os.path.join(folder_save, file_base+'_sup.json')
+    if not os.path.exists(file_candidatos_O):
+        make_lista_candidatos(folder_save, ano)
+    try:
+        with open(file_candidatos_O) as f:
+            candidatos_O = json.load(f)
+    except IOError:
+        candidatos_O = []
+    try:
+        with open(file_candidatos_S) as f:
+            candidatos_S = json.load(f)
+    except IOError:
+        candidatos_S = []
+    return candidatos_O, candidatos_S
+
+
+def make_lista_candidatos(folder_save, ano=2018):
+    """
+    Cria os candidatos a eleições em um dado ano
+    """
+    file_base = 'Lista_{:d}'.format(ano)
+    file_candidatos_O = os.path.join(folder_save, file_base+'_ord.json')
+    file_candidatos_S = os.path.join(folder_save, file_base+'_sup.json')
+
     eleicoes = get_eleicoes()
     eleicoes = [x for x in eleicoes if x['ano']==ano]
     estados, municipios = get_estados_municipios()
     estados = [x['sigla'] for x in estados]
     municipios = [x['sigla'] for x in municipios]
-    logging.info('Encontrado lista de estados')
+    logging.info('Encontrado lista de estados e municípios.')
     function = functions['getResourceCandidatos'][1]
     if ano % 4 == 2:
         ue = estados + ['BR']
@@ -128,7 +152,6 @@ def get_candidatos(folder_save=None, ano=2018):
             regiao = [regiao]
         else:
             regiao = ue
-        print(regiao)
         if eleicao['tipoAbrangencia'] == 'M':
             cargos = range(11,14)
         else:
@@ -144,59 +167,93 @@ def get_candidatos(folder_save=None, ano=2018):
                 logging.info('Executando função com parâmetros {}...'.format(params.values()))
                 this = function(**params)
                 logging.info('API retornou com {} resultados.'.format(len(this['candidatos'])))
-                if eleicao['tipoEleicao'] == 'O':
-                    candidatos_O += this['candidatos']
-                elif eleicao['tipoEleicao'] == 'S':
-                    candidatos_S += this['candidatos']
-                else:
-                    logging.warning('Tipo de eleição desconhecido: {}'.format(eleicao['id']))
+                for cand in this['candidatos']:
+                    cand_dict = {
+                        'ano': ano,
+                        'sgUe': estado,
+                        'eleicao': cand['eleicao']['id'],
+                        'cargo': cand['cargo']['codigo'],
+                        'id': cand['id'],
+                        'partido': cand['partido']['numero'],
+                        'numero': cand['numero'],
+                    }
+                    if eleicao['tipoEleicao'] == 'O':
+                        candidatos_O.append(cand_dict)
+                    elif eleicao['tipoEleicao'] == 'S':
+                        candidatos_S.append(cand_dict)
+                    else:
+                        logging.warning('Tipo de eleição desconhecido: {}'.format(eleicao['id']))
                 
-    file_base = 'Candidatos_{:d}'.format(ano)
-    file_candidatos_O = os.path.join(folder_save, file_base+'_ord.json')
-    file_candidatos_S = os.path.join(folder_save, file_base+'_sup.json')
-    if len(candidatos_O)>0:
-        with open(file_candidatos_O, 'w') as f:
-            json.dump(candidatos_O, f)
-            logging.info('Arquivo salvo: {}'.format(file_candidatos_O.split('/')[-1]))
-    if len(candidatos_S)>0:
-        with open(file_candidatos_S, 'w') as f:
-            json.dump(candidatos_S, f)
-            logging.info('Arquivo salvo: {}'.format(file_candidatos_S.split('/')[-1]))
-
-def read_candidatos(input_filepath):
-    """
-    Lê a lista de candidatos
-    """
-    with open(input_filepath) as f:
-        candidatos = json.load(f)
-    return candidatos
-
-def get_bens(ano=2018):
-    """
-    Consulta a base de bens
-    """
-    here = os.path.dirname(os.path.abspath(__file__))
-    file_read = os.path.join(here, '..', '..', 'data', 'raw', 'Candidatos_{}_*.json'.format(ano))
-    file_read = os.path.abspath(file_read)
-    input_filepath = glob.glob(file_read)
-    for fl in input_filepath:
-        candidatos = read_candidatos(fl)
-        bens = []
-        for candidato in candidatos:
-            params = {
-                'sqEleicao': candidato['eleicao']['id'],
-                'ano': candidato['eleicao']['ano'], 
-                'sgUe':
-                'idCargo',
-                'nrPartido',
-                'nrCandidato': candidato['numero'],
-                'sqCandidato':
-            }
+    with open(file_candidatos_O, 'w') as f:
+        json.dump(candidatos_O, f)
+        logging.info('Arquivo salvo: {}'.format(file_candidatos_O.split('/')[-1]))
+    with open(file_candidatos_S, 'w') as f:
+        json.dump(candidatos_S, f)
+        logging.info('Arquivo salvo: {}'.format(file_candidatos_S.split('/')[-1]))
 
 
-/rest/v1/prestador/consulta/:sqEleicao/:ano/:sgUe/:idCargo/:nrPartido/:nrCandidato/:sqCandidato
+def get_candidato_info(candidato):
+    """
+    Retorna informação sobre um candidato
+    """
+    params = {
+        'ano': candidato['ano'],
+        'sgUe': candidato['sgUe'],
+        'eleicao': candidato['eleicao'],
+        'idCandidato': candidato['id'],
+    }
+    function = functions['getResourceCandidato'][1]
+    this = function(**params)
+    if len(this):
+        logging.info('Informação pessoal obtida sobre candidato {}'.format(candidato['id']))
+        return this
+
+def get_candidato_financeiro(candidato):
+    """
+    Retorna informação financeira sobre um candidato
+    """
+    params = {
+        'sqEleicao': candidato['eleicao'],
+        'ano': candidato['ano'],
+        'sgUe': candidato['sgUe'],
+        'idCargo': candidato['cargo'],
+        'nrPartido': str(candidato['numero'])[:2],
+        'nrCandidato': candidato['numero'],
+        'sqCandidato': candidato['id'],
+    }
+    function = functions['getResourcePrestador'][1]
+    this = function(**params)
+    if len(this):
+        logging.info('Informação financeira obtida sobre candidato {}'.format(candidato['id']))
+        return this
+
+def main(folder_save=None, ano=2018):
+    if folder_save is None:
+        here = os.path.dirname(os.path.abspath(__file__))
+        folder_save = os.path.join(here, '..', '..', 'data', 'raw')
+        folder_save = os.path.abspath(folder_save)
+    file_base_cand = os.path.join(folder_save, 'Candidatos_{:d}'.format(ano))
+    file_base_fin = os.path.join(folder_save, 'Financeiro_{:d}'.format(ano))
+    candidatos = get_lista_candidatos(ano=ano)
+    for ls, label in zip(candidatos, ['_ord','_sup']):
+        ls_cand, ls_fin = [],[]
+        try:
+            for cand in ls:
+                ls_cand.append(get_candidato_info(cand))
+                ls_fin.append(get_candidato_financeiro(cand))
+        except KeyboardInterrupt:
+            pass
+        with open(file_base_cand + label + '.json', 'w') as f:
+            json.dump(ls_cand, f)
+        with open(file_base_fin + label + '.json', 'w') as f:
+            json.dump(ls_fin, f)
+        
+
+
+
 
 if __name__=='__main__':
     anos = functions['getResourceAnosEleitorais'][1]()
     for ano in anos[0:]:
-        get_candidatos(ano=ano)
+        # get_lista_candidatos(ano=ano)
+        main(ano=ano)
